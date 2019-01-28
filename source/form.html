@@ -43,24 +43,61 @@
                 <p class="text text--gray">Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
             </section>
             <section class="form-comment">
-                <div class="form-comment--name">
-
-                </div>
-                <div class="form-comment--contact">
-
-                </div>
-                <div class="form-comment--impressions">
-
-                </div>
-                <div class="form-comment--visits">
-
-                </div>
-                <div class="form-comment--impressions">
-
-                </div>
-                <div class="form-comment--description">
-                    <button class="button" type="button">Отправить отзыв</button>
-                </div>
+                <form class="filter-form" id="filter-form" action="https://echo.htmlacademy.ru" method="get">
+                    <div class="form-comment__name">
+                        <b class="text text--black text--bold">Представьтесь:</b><br>
+                        <label for="name-field"><span class="text text--gray">Имя*:</span></label>
+                        <input class="text text--black" type="text" id="name-field" name="name" placeholder="Петр"><br>
+                        <label for="surname-field"><span class="text text--gray">Фамилия*:</span></label>
+                        <input class="text text--black" type="text" id="surname-field" name="surname" placeholder="Иванов"><br>
+                        <label for="patronymic-field"><span class="text text--gray">Отчество*:</span></label>
+                        <input class="text text--black" type="text" id="patronymic-field" name="patronymic" placeholder="Александрович">
+                    </div>
+                    <div class="form-comment__contact">
+                        <b class="text text--black text--bold">Контактная информация:</b><br>
+                        <label for="phone-field"><span class="text text--gray">Контактный телефон*:</span></label><br>
+                        <input class="text text--black" type="text" id="phone-field" name="name" placeholder="Введите телефон"><br>
+                        <label for="email-field"><span class="text text--gray">Электронная почта*:</span></label><br>
+                        <input class="text text--black" type="text" id="email-field" name="surname" placeholder="Введите e-mail"><br>
+                        <div class="form-comment__logo">
+                            <img src="http://placehold.it/58x58" alt="Логотип телефона" width="58" height="58">
+                        </div>
+                        <div class="form-comment__logo">
+                            <img src="http://placehold.it/58x58" alt="Логотип почты" width="58" height="58">
+                        </div>
+                    </div>
+                    <div class="form-comment__impressions">
+                        <b class="text text--black text--bold">Ваше общее впечатление:</b><br>
+                        <label>
+                            <input type="radio" name="impressions" value="Скорее положительное">
+                            <span class="text text--black">Скорее положительное</span><br>
+                        </label>
+                        <label>
+                            <input type="radio" name="impressions" value="Скорее отрицательное">
+                            <span class="text text--black">Скорее отрицательное</span><br>
+                        </label>
+                        <label>
+                            <input type="radio" name="impressions" value="Затрудняюсь ответить">
+                            <span class="text text--black">Затрудняюсь ответить</span>
+                        </label>
+                    </div>
+                    <div class="form-comment__visits">
+                        <b class="text text--black text--bold">Посещенные достопримечательности:</b><br>
+                        <input type="checkbox" name="subscribe" id="devil-bridge">
+                        <label for="devil-bridge">Мост Дьявола</label>
+                        <input type="checkbox" name="subscribe" id="mountain-bell">
+                        <label for="mountain-bell">Гора-Колокол</label>
+                        <input type="checkbox" name="subscribe" id="slide-park">
+                        <label for="slide-park">Слайд-парк</label>
+                        <input type="checkbox" name="subscribe" id="red-rock">
+                        <label for="red-rock">Красные скалы</label>
+                    </div>
+                    <div class="form-comment__description">
+                        <b class="text text--black text--bold">Опишите свои эмоции:</b><br>
+                        <textarea name="comment" id="comment-field" rows="10" placeholder="Опишите подробно все свои восторги"></textarea>
+                        <button class="button" type="submit">Отправить отзыв</button>
+                    </div>
+                </form>
             </section>
         </main>
         <footer class="page-footer">
