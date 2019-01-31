@@ -1,6 +1,5 @@
 const gulp =  require('gulp');
 const less = require('gulp-less');
-const browserSync = require('');
 
 gulp.task('less', function () {
    return gulp.src('source/less/style.less')
