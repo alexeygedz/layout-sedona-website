@@ -4,6 +4,38 @@
 .advantage__item--gray {
   background-color: #eeeeee;
 }
+.text {
+  text-transform: uppercase;
+  line-height: 21px;
+  font-size: 14px;
+}
+.text--white {
+  color: #ffffff;
+}
+.text--gray {
+  color: #333333;
+}
+.text--black {
+  color: #000000;
+}
+.text--bold {
+  font-weight: bold;
+}
+.text--header {
+  line-height: 26px;
+  font-size: 21px;
+}
+.text--big-header {
+  line-height: 26px;
+  font-size: 30px;
+}
+.h1 {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000000;
+}
 .body {
   background-color: #ffffff;
 }
