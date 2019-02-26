@@ -12,4 +12,4 @@ gulp.task('watch', function () {
    gulp.watch('source/less/style.less', gulp.parallel('less'));
 });
 
-gulp.task('default', gulp.parallel('watch'));
+gulp.task('default', gulp.parallel('less'));
