@@ -4,12 +4,47 @@
 .advantage__item--gray {
   background-color: #eeeeee;
 }
+.main-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .page-header {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.page-header__block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.page-header__menu {
+  width: 320px;
+  height: 54px;
+}
+.page-header__logo {
+  display: block;
+  position: absolute;
+  top: 215px;
+}
+.page-header__close {
+  position: absolute;
+  top: 10px;
+  left: 450px;
+}
+.page-header__open {
+  position: absolute;
+  top: 230px;
+  left: 450px;
 }
 .site-list {
   list-style: none;
+  padding: 0px;
+  margin: 0px;
 }
 .site-list__item {
   display: flex;
@@ -56,19 +91,16 @@
   min-width: 320px;
   margin: 0;
   padding: 0;
-  background: #ffffff url("../img/test/sedona-index-mobile.jpg") no-repeat 50% 0;
   background-size: 720px auto;
   min-height: 750px;
 }
 @media (min-width: 768px) {
   .body {
-    background: #ffffff url("../img/test/sedona-index-tablet.jpg") no-repeat 50% 0;
     background-size: 1178px auto;
   }
 }
 @media (min-width: 1200px) {
   .body {
-    background: #ffffff url("../img/test/sedona-index-desktop.jpg") no-repeat 50% 0;
     background-size: 1391px auto;
   }
 }
