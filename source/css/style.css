@@ -1,14 +1,52 @@
+.advantage {
+  display: block;
+  width: 320px;
+}
+.advantage__list {
+  padding: 0px;
+  margin: 0px;
+}
+.advantage__item {
+  list-style: none;
+}
 .advantage__item--blue {
   background-color: #81b3d2;
 }
 .advantage__item--gray {
   background-color: #eeeeee;
 }
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hotel-search {
+  display: block;
+  width: 320px;
+  height: 290px;
+}
+.info {
+  display: block;
+  width: 320px;
+  height: 225px;
+}
 .main-nav {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.page-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.page-footer__list {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
 }
 .page-header {
   display: flex;
@@ -32,14 +70,14 @@
   top: 215px;
 }
 .page-header__close {
-  position: absolute;
-  top: 10px;
-  left: 450px;
+  position: relative;
+  top: -3px;
+  left: 84px;
 }
 .page-header__open {
-  position: absolute;
-  top: 230px;
-  left: 450px;
+  position: relative;
+  top: 10px;
+  left: 270px;
 }
 .site-list {
   list-style: none;
@@ -78,7 +116,7 @@
 }
 .text--big-header {
   line-height: 26px;
-  font-size: 30px;
+  font-size: 24px;
 }
 .h1 {
   font-size: 21px;
