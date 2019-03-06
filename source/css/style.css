@@ -1,6 +1,7 @@
 .advantage {
   display: block;
   width: 320px;
+  background-color: #ffffff;
 }
 .advantage__list {
   padding: 0px;
@@ -11,6 +12,11 @@
 }
 .advantage__item--blue {
   background-color: #81b3d2;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
 }
 .advantage__item--gray {
   background-color: #eeeeee;
@@ -29,6 +35,33 @@
   background-image: url("../img/photo-bridge@1x.png");
   background-position: center;
 }
+.advantage__item--list {
+  box-sizing: border-box;
+  padding-top: 20px;
+}
+.advantage__item--last {
+  padding-bottom: 20px;
+}
+.advantage__item--num {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.button--hotel {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: #81b3d2;
+  display: inline-block;
+  color: #ffffff;
+  line-height: 26px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
 .container {
   display: flex;
   flex-direction: column;
@@ -39,11 +72,29 @@
   display: block;
   width: 320px;
   height: 290px;
+  background-color: #ffffff;
+  padding-top: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+.hotel-search__text {
+  line-height: 26px;
+  font-size: 14px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 25px;
+}
+.hotel-search__text--one {
+  font-weight: bold;
 }
 .info {
   display: block;
   width: 320px;
   height: 225px;
+  padding-top: 40px;
+  box-sizing: border-box;
 }
 .main-nav {
   display: flex;
@@ -63,6 +114,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: #ffffff;
 }
 .page-footer__list {
   list-style: none;
@@ -139,6 +191,9 @@
 .text {
   line-height: 26px;
   font-size: 14px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
 }
 .text--white {
   color: #ffffff;
@@ -151,8 +206,12 @@
 }
 .text--bold {
   font-weight: bold;
+  text-align: center;
+  padding: 0;
+  margin: 0;
 }
 .text--header {
+  width: auto;
   line-height: 26px;
   font-size: 18px;
 }
@@ -166,12 +225,17 @@
   font-weight: bold;
   text-transform: uppercase;
   color: #000000;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 35px;
 }
 .body {
   min-width: 320px;
   margin: 0;
   padding: 0;
   text-transform: uppercase;
+  font-family: "PT+Sans", Arial;
   background-size: 720px auto;
   min-height: 750px;
 }

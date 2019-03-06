@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Главная</title>
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
         <link href="css/normalize.css" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -49,52 +50,46 @@
                 <div class="advantage__one">
                     <ul class="advantage__list">
                         <li class="advantage__item advantage__item--blue">
-                            <b class="text--white text--bold text--header">Настоящий городок</b>
+                            <p class="text--white text--bold text--header">Настоящий городок</p>
                             <p class="text text--white">— №1 —</p>
                             <p class="text text--white">Седона не атракцион для туристов, там течет своя жизнь</p>
                         </li>
                         <li class="advantage__item">
-                            <div class="advantage__image-two"></div>
+                            <div class="advantage__image-one"></div>
                         </li>
-                        <li class="advantage__item">
-                            <div class="advantage__logo">
-                                <img src="./img/icon-house.png" alt="Настоящий городок" width="39" height="37">
-                            </div>
-                            <b class="text--black text--bold text--header">Жилье</b>
-                            <p class="text--gray">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+                        <li class="advantage__item advantage__item--list">
+                            <img class="advantage__logo" src="./img/icon-house.png" alt="Настоящий городок" width="39" height="37">
+                            <p class="text--black text--bold text--header">Жилье</p>
+                            <p class="text text--left text--gray">Рекомендуем пожить в настоящем мотеле, все как в кино!</p> q
                         </li>
-                        <li class="advantage__item">
-                            <div class="advantage__logo">
-                                <img src="./img/icon-gift.png" alt="Логотип сувениры" width="39" height="37">
-                            </div>
-                            <b class="text--black text--bold text--header">Сувениры</b>
-                            <p class="text text--gray">Не только китайского, но и местного производства!</p>
+                        <li class="advantage__item advantage__item--list">
+                            <img class="advantage__logo" src="./img/icon-gift.png" alt="Логотип сувениры" width="32" height="38">
+                            <p class="text--black text--bold text--header">Сувениры</p>
+                            <p class="text text--left text--gray">Не только китайского, но и местного производства!</p>
                         </li>
-                        <li class="advantage__item">
-                            <div class="advantage__logo">
-                                <img src="./img/icon-burger.png" alt="Логотип еда" width="39" height="37">
-                            </div>
-                            <b class="text--black text--bold text--header">Еда</b>
-                            <p class="text text--gray">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+                        <li class="advantage__item advantage__item--list advantage__item--last">
+                            <img class="advantage__logo" src="./img/icon-burger.png" alt="Логотип еда" width="40" height="35">
+                            <p class="text--black text--bold text--header">Еда</p>
+                            <p class="text text--left text--gray">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
                         </li>
                     </ul>
                 </div>
                 <div class="advantage__two">
                     <ul class="advantage__list">
                         <li class="advantage__item advantage__item--blue">
-                            <b class="text--white text--bold text--header">Там есть мост дьявола</b>
+                            <p class="text--white text--bold text--header">Там есть мост дьявола</p>
                             <p class="text text--white">— №2 —</p>
                             <p class="text text--white">Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
                         </li>
                         <li class="advantage__item">
-                            <div class="advantage__image-one"></div>
+                            <div class="advantage__image-two"></div>
                         </li>
                     </ul>
                 </div>
                 <div class="advantage__three">
                     <ul class="advantage__list">
-                        <li class="advantage__item advantage__item--gray">
-                            <b class="text--black text--bold text--header">Небольшая площадь</b>
+                        <li class="advantage__item advantage__item--gray advantage__item--num">
+                            <p class="text--black text--bold text--header">Небольшая площадь</p>
                             <p class="text text--gray">— №3 —</p>
                             <p class="text text--gray">Все интересные места находятся очень близко</p>
                         </li>
@@ -102,8 +97,8 @@
                 </div>
                 <div class="advantage__four">
                     <ul class="advantage__list">
-                        <li class="advantage__item  advantage__item--gray">
-                            <b class="text--black text--bold text--header">Красивая дорога</b>
+                        <li class="advantage__item  advantage__item--gray advantage__item--num">
+                            <p class="text--black text--bold text--header">Красивая дорога</p>
                             <p class="text text--gray">— №4 —</p>
                             <p class="text text--gray">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
                         </li>
@@ -111,8 +106,8 @@
                 </div>
                 <div class="advantage__five">
                     <ul class="advantage__list">
-                        <li class="advantage__item  advantage__item--gray">
-                            <b class="text--black text--bold text--header">Мало туристов</b>
+                        <li class="advantage__item  advantage__item--gray advantage__item--num">
+                            <p class="text--black text--bold text--header">Мало туристов</p>
                             <p class="text text--gray">— №5 —</p>
                             <p class="text text--gray">Большинство едет в гранд каньон и толпится там</p>
                         </li>
@@ -120,15 +115,15 @@
                 </div>
             </section>
             <section class="hotel-search">
-                <b class="text text--black text--bold text--big-header">Заинтересовались?</b>
-                <p class="text text--gray">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
-                <a class="button text--bold text--white text--big-header" href="#">Найти гостиницу</a>
+                <p class="hotel-search__text hotel-search__text--one text--black text--big-header">Заинтересовались?</p>
+                <p class="hotel-search__text text--gray">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
+                <a class="button--hotel" href="#">Найти гостиницу</a>
             </section>
             <section class="map"></section>
         </main>
         <footer class="page-footer">
             <div class="page-footer__text">
-                <b class="text--black text--bold text--big-header">#visitsedona</b>
+                <p class="text--black text--bold text--big-header">#visitsedona</p>
             </div>
             <div class="page-footer__social">
                 <ul class="page-footer__list">
