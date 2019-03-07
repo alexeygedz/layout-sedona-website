@@ -52,13 +52,12 @@
 .button--hotel {
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 52px;
+  padding-right: 52px;
   background-color: #81b3d2;
-  display: inline-block;
   color: #ffffff;
   line-height: 26px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   text-decoration: none;
 }
@@ -68,12 +67,15 @@
   align-items: center;
   justify-content: center;
 }
+.developer-logo {
+  margin-left: 10px;
+}
 .hotel-search {
   display: block;
   width: 320px;
-  height: 290px;
   background-color: #ffffff;
   padding-top: 25px;
+  padding-bottom: 65px;
   padding-left: 20px;
   padding-right: 20px;
   box-sizing: border-box;
@@ -116,10 +118,44 @@
   justify-content: center;
   background-color: #ffffff;
 }
+.page-footer__main {
+  width: 320px;
+  box-sizing: border-box;
+  padding-top: 40px;
+}
 .page-footer__list {
+  display: flex;
   list-style: none;
   padding: 0px;
   margin: 0px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+.page-footer__item {
+  margin-right: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 48px;
+  background-color: #81b3d2;
+  align-content: center;
+}
+.page-footer__item:last-child {
+  margin-right: 0;
+}
+.page-footer__text {
+  display: block;
+  margin-bottom: 35px;
+}
+.page-footer__site-developer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 35px;
 }
 .page-header {
   display: flex;
@@ -168,7 +204,10 @@
   background-image: url("../img/icon-menu.png");
 }
 .page-header__image {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 320px;
   height: 389px;
   background-image: url("../img/back-mobile.png");
