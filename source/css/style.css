@@ -36,6 +36,8 @@
   background-position: center;
 }
 .advantage__item--list {
+  display: flex;
+  flex-direction: row;
   box-sizing: border-box;
   padding-top: 20px;
 }
@@ -48,6 +50,14 @@
   box-sizing: border-box;
   padding-left: 20px;
   padding-right: 20px;
+}
+.advantage__logo__container {
+  width: 40px;
+  margin-right: 10px;
+}
+.advantage__text__container {
+  width: 210px;
+  padding-top: 10px;
 }
 .button--hotel {
   padding-top: 20px;
@@ -100,8 +110,8 @@
 .info {
   display: block;
   width: 320px;
-  height: 225px;
   padding-top: 40px;
+  padding-bottom: 40px;
   box-sizing: border-box;
 }
 .main-nav {
@@ -186,9 +196,11 @@
   top: 215px;
 }
 .page-header__close {
+  display: block;
+  width: 22px;
   position: relative;
-  top: 0px;
-  left: 74px;
+  top: 0;
+  left: 84px;
 }
 .page-header__close-button {
   border: none;
@@ -198,6 +210,8 @@
   background-image: url("../img/icon-cross.png");
 }
 .page-header__open {
+  display: block;
+  width: 23px;
   position: relative;
   top: 12px;
   left: 276px;
@@ -240,6 +254,9 @@
   padding: 0;
   margin: 0;
 }
+.text--left {
+  text-align: left;
+}
 .text--white {
   color: #ffffff;
 }
@@ -260,6 +277,13 @@
   line-height: 26px;
   font-size: 18px;
 }
+.text--header-left {
+  width: auto;
+  line-height: 26px;
+  font-size: 18px;
+  text-align: left;
+  margin-bottom: 15px;
+}
 .text--big-header {
   line-height: 26px;
   font-size: 21px;
@@ -276,6 +300,10 @@
   margin-bottom: 35px;
 }
 .body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   min-width: 320px;
   margin: 0;
   padding: 0;
