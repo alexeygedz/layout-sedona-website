@@ -12,3 +12,20 @@
   background-color: #81b3d2;
   box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.2);
 }
+
+@media (min-width: @tablet-width) {
+
+  .site-list {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .site-list__item {
+    width: 153px;
+    background-color: #ffffff;
+  }
+
+  .site-list__item:nth-child(5) {
+    order: 3;
+  }
+}
