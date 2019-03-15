@@ -60,17 +60,34 @@
   padding-top: 10px;
 }
 @media (min-width: 768px) {
+  .advantage {
+    width: 768px;
+  }
+  .advantage__list {
+    width: 768px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .advantage__item--list {
+    width: 256px;
+    height: 256px;
+  }
+  .advantage__item--blue {
+    width: 256px;
+    height: 256px;
+  }
   .advantage__image-two {
     display: block;
     width: 512px;
-    height: 260px;
+    height: 256px;
     background-image: url("../img/photo-bridge@1x.png");
     background-position: center;
   }
   .advantage__image-one {
     display: block;
     width: 512px;
-    height: 260px;
+    height: 256px;
     background-image: url("../img/photo-city@1x.png");
     background-position: center;
   }
@@ -129,6 +146,13 @@
   padding-top: 40px;
   padding-bottom: 40px;
   box-sizing: border-box;
+}
+@media (min-width: 768px) {
+  .info {
+    width: 768px;
+    padding-left: 110px;
+    padding-right: 110px;
+  }
 }
 .main-nav {
   display: flex;
@@ -305,6 +329,18 @@
   .site-list__item {
     width: 153px;
     background-color: #ffffff;
+  }
+  .site-list__item:nth-child(1) {
+    order: 1;
+  }
+  .site-list__item:nth-child(2) {
+    order: 2;
+  }
+  .site-list__item:nth-child(3) {
+    order: 4;
+  }
+  .site-list__item:nth-child(4) {
+    order: 5;
   }
   .site-list__item:nth-child(5) {
     order: 3;
