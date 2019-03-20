@@ -116,6 +116,28 @@
     flex-direction: column;
   }
 }
+@media (min-width: 1200px) {
+  .advantage {
+    width: 1200px;
+  }
+  .advantage__item--list {
+    width: 400px;
+  }
+  .advantage__item--blue {
+    width: 400px;
+  }
+  .advantage__image-two {
+    width: 800px;
+    background-image: url("../img/photo-bridge@1x.png");
+  }
+  .advantage__image-one {
+    width: 800px;
+    background-image: url("../img/photo-city@1x.png");
+  }
+  .advantage__item--gray {
+    width: 400px;
+  }
+}
 .button--hotel {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -173,6 +195,11 @@
     width: 768px;
   }
 }
+@media (min-width: 1200px) {
+  .hotel-search {
+    width: 1200px;
+  }
+}
 .info {
   display: block;
   width: 320px;
@@ -204,9 +231,14 @@
   .map {
     display: block;
     width: 768px;
-    height: 350px;
     background-image: url("../img/map-tablet.png");
-    background-position: center;
+  }
+}
+@media (min-width: 1200px) {
+  .map {
+    display: block;
+    width: 1200px;
+    background-image: url("../img/map-desktop.png");
   }
 }
 .page-footer {
@@ -273,6 +305,20 @@
   }
   .page-footer__site-developer {
     width: 256px;
+  }
+}
+@media (min-width: 1200px) {
+  .page-footer__main {
+    width: 1200px;
+  }
+  .page-footer__text {
+    width: 400px;
+  }
+  .page-footer__social {
+    width: 400px;
+  }
+  .page-footer__site-developer {
+    width: 400px;
   }
 }
 .page-header {
@@ -360,6 +406,15 @@
     display: none;
   }
 }
+@media (min-width: 1200px) {
+  .page-header__menu {
+    width: 1200px;
+  }
+  .page-header__image {
+    width: 1200px;
+    background-image: url("../img/back-desktop.png");
+  }
+}
 .site-list {
   list-style: none;
   padding: 0px;
@@ -397,6 +452,12 @@
   }
   .site-list__item:nth-child(5) {
     order: 3;
+  }
+}
+@media (min-width: 1200px) {
+  .site-list__item {
+    width: 239px;
+    background-color: #ffffff;
   }
 }
 .text {
@@ -465,6 +526,11 @@
 @media (min-width: 768px) {
   .body {
     min-width: 648px;
+  }
+}
+@media (min-width: 1200px) {
+  .body {
+    min-width: 960px;
   }
 }
 .link-none {
