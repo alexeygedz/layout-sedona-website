@@ -64,14 +64,16 @@
     width: 768px;
   }
   .advantage__list {
-    width: 768px;
     height: auto;
     display: flex;
     flex-wrap: wrap;
   }
   .advantage__item--list {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 256px;
-    height: 256px;
+    height: 330px;
   }
   .advantage__item--blue {
     width: 256px;
@@ -90,6 +92,28 @@
     height: 256px;
     background-image: url("../img/photo-city@1x.png");
     background-position: center;
+  }
+  .advantage__logo__container {
+    width: 40px;
+    margin-right: 0;
+  }
+  .advantage__text__container p {
+    text-align: center;
+  }
+  .advantage__item--last {
+    padding-bottom: 0;
+  }
+  .advantage__item--gray {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 256px;
+    height: 256px;
+  }
+  .advantage__three {
+    display: flex;
+    flex-direction: column;
   }
 }
 .button--hotel {
@@ -139,6 +163,15 @@
 }
 .hotel-search__text--one {
   font-weight: bold;
+}
+@media (min-width: 768px) {
+  .hotel-search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 768px;
+  }
 }
 .info {
   display: block;
@@ -221,6 +254,26 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 35px;
+}
+@media (min-width: 768px) {
+  .page-footer__main {
+    width: 768px;
+    display: flex;
+    flex-direction: row;
+  }
+  .page-footer__text {
+    width: 256px;
+    margin-bottom: 0;
+  }
+  .page-footer__social {
+    width: 256px;
+  }
+  .page-footer__list {
+    margin-bottom: 0;
+  }
+  .page-footer__site-developer {
+    width: 256px;
+  }
 }
 .page-header {
   display: flex;
