@@ -52,12 +52,26 @@
   padding-right: 20px;
 }
 .advantage__logo__container {
-  width: 40px;
   margin-right: 10px;
 }
 .advantage__text__container {
   width: 210px;
   padding-top: 10px;
+}
+.advantage__logo--house {
+  width: 39px;
+  height: 37px;
+  background-image: url("../img/icon-house.png");
+}
+.advantage__logo--gift {
+  width: 32px;
+  height: 38px;
+  background-image: url("../img/icon-gift.png");
+}
+.advantage__logo--burger {
+  width: 40px;
+  height: 35px;
+  background-image: url("../img/icon-burger.png");
 }
 @media (min-width: 768px) {
   .advantage {
@@ -94,7 +108,7 @@
     background-position: center;
   }
   .advantage__logo__container {
-    width: 40px;
+    width: 80px;
     margin-right: 0;
   }
   .advantage__text__container p {
@@ -114,6 +128,21 @@
   .advantage__three {
     display: flex;
     flex-direction: column;
+  }
+  .advantage__logo--house {
+    width: 75px;
+    height: 72px;
+    background-image: url("../img/icon-house-max.png");
+  }
+  .advantage__logo--gift {
+    width: 64px;
+    height: 75px;
+    background-image: url("../img/icon-gift-max.png");
+  }
+  .advantage__logo--burger {
+    width: 77px;
+    height: 68px;
+    background-image: url("../img/icon-burger-max.png");
   }
 }
 @media (min-width: 1200px) {
@@ -166,11 +195,14 @@
   margin-left: 10px;
 }
 .hotel-search {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 320px;
   background-color: #ffffff;
   padding-top: 25px;
-  padding-bottom: 65px;
+  padding-bottom: 50px;
   padding-left: 20px;
   padding-right: 20px;
   box-sizing: border-box;
@@ -339,15 +371,20 @@
   background-color: #ffffff;
 }
 .page-header__logo {
+  width: 102px;
+  height: 83px;
+  background-image: url("../img/logotyle-mobile.png");
   display: block;
-  position: absolute;
+  position: relative;
+  top: 14px;
+  left: 10px;
 }
 .page-header__close {
   display: block;
   width: 22px;
   position: relative;
   top: 0;
-  left: 84px;
+  left: 94px;
 }
 .page-header__close-button {
   border: none;
@@ -360,8 +397,8 @@
   display: block;
   width: 23px;
   position: relative;
-  top: 12px;
-  left: 276px;
+  top: 0px;
+  left: 80px;
 }
 .page-header__open-button {
   border: none;
@@ -414,6 +451,12 @@
     width: 1200px;
     background-image: url("../img/back-desktop.png");
   }
+  .page-header__logo {
+    width: 188px;
+    height: 96px;
+    background-image: url("../img/logotype-desktop.png");
+    top: 20px;
+  }
 }
 .site-list {
   list-style: none;
@@ -428,6 +471,9 @@
   height: 54px;
   background-color: #81b3d2;
   box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.2);
+}
+.site-list__item--logo {
+  background-color: #ffffff;
 }
 @media (min-width: 768px) {
   .site-list {
@@ -536,10 +582,15 @@
 .link-none {
   display: block;
   text-decoration: none;
-  color: #000000;
+  color: #ffffff;
   line-height: 26px;
   font-size: 14px;
   text-align: center;
   padding: 0;
   margin: 0;
+}
+@media (min-width: 768px) {
+  .link-none {
+    color: #000000;
+  }
 }
